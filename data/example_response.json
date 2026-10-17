@@ -1,0 +1,63 @@
+{
+  "hypothesis_null": "July and January share the same first-order transition probabilities",
+  "july": {
+    "days": 30,
+    "rainy_days": 26,
+    "transition_counts": [
+      [
+        1,
+        3
+      ],
+      [
+        3,
+        22
+      ]
+    ],
+    "transition_probabilities": [
+      [
+        0.25,
+        0.75
+      ],
+      [
+        0.12,
+        0.88
+      ]
+    ]
+  },
+  "january": {
+    "days": 30,
+    "rainy_days": 11,
+    "transition_counts": [
+      [
+        13,
+        5
+      ],
+      [
+        5,
+        6
+      ]
+    ],
+    "transition_probabilities": [
+      [
+        0.722222,
+        0.277778
+      ],
+      [
+        0.454545,
+        0.545455
+      ]
+    ]
+  },
+  "state_order": [
+    "dry (0)",
+    "rain (1)"
+  ],
+  "chi_square_statistic": 8.100263,
+  "degrees_of_freedom_nominal": 2,
+  "asymptotic_p_value": 0.01742,
+  "simulation_p_value": 0.024595,
+  "bootstrap_iterations": 5000,
+  "random_seed": 2026,
+  "different_at_alpha_0_05": true,
+  "method": "Two row-stratified Pearson chi-square comparisons; parametric Monte Carlo null simulation from the pooled first-order Markov chain with fixed initial states."
+}
